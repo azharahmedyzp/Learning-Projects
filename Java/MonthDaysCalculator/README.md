@@ -1,61 +1,59 @@
-````markdown
-# Month Days Calculator using Switch Statement (Java)
+# Month Days Calculator
 
-A simple **Java console program** that displays the number of days in a month.  
-Supports **full month names** and **3-letter abbreviations**.  
-Type `"End"` to exit the program.
-
----
+A simple Java program that calculates the number of days in a given month based on user input.
 
 ## Features
 
-- Handles all 12 months  
-- Accepts full names (`January`) and abbreviations (`JAN`)  
-- Case-insensitive input (`maY`, `FEB`, `oct` all work)  
-- Loops until the user types `"End"`  
-- Prints correct number of days for each month  
+- Accepts both full month names and 3-letter abbreviations
+- Case-insensitive input handling
+- Simple exit mechanism by typing "End"
+- User-friendly interface with clear prompts
 
----
+## How to Use
 
-## How to Run
+1. Compile the program:
+   ```bash
+   javac MonthDays.java
+   ```
 
-1. Open terminal/command prompt and navigate to the project folder.  
-2. Compile the Java file:
+2. Run the program:
+   ```bash
+   java MonthDays
+   ```
 
-```bash
-javac MonthDays.java
-````
+3. Enter month names when prompted (e.g., "January", "Jan", "FEB", "february")
+4. Type "End" (case-insensitive) to exit the program
 
-3. Run the program:
+## Supported Input Formats
 
-```bash
-java MonthDays
-```
+The program accepts:
+- Full month names (e.g., "January", "February")
+- 3-letter abbreviations (e.g., "Jan", "Feb")
+- September can also be abbreviated as "Sept" (in addition to "Sep")
 
-4. Follow prompts to enter a month name.
-5. Type `"End"` to exit.
-
----
-
-## Example
+## Example Usage
 
 ```
 === Month Days Calculator ===
 Enter month names (full or 3-letter abbreviation)
 Type "End" to exit the program
 =============================
-Enter month's name: MAR
-March has 31 days.
-Enter month's name: february
+Enter month's name: January
+January has 31 days.
+Enter month's name: feb
 February has 28 or 29 days.
+Enter month's name: apr
+April has 30 days.
 Enter month's name: End
 Ending Program...
+Program ended successfully!
 ```
 
----
+## Notes
 
-## Author
+- February displays "28 or 29 days" to account for leap years
+- The program handles invalid inputs by displaying an error message and prompting again
 
-* GitHub: [azharahmedyzp](https://github.com/azharahmedyzp)
+## License
 
-```
+This project is open source and available under the MIT License.
