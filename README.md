@@ -7,6 +7,6 @@ It is organized by language and project complexity, from beginner to intermediat
 
 ## Structure
 
-- `java/` → Java projects  
-- `python/` → Python projects  
+- `Java/` → Java projects  
+- `Python/` → Python projects  
 ...
