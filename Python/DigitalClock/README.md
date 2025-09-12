@@ -9,33 +9,6 @@ A simple Digital Clock GUI built with Python (Tkinter). It displays the current 
 - Stylish interface with Tkinter GUI
 - Updates automatically every second
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/DigitalClock.git
-cd DigitalClock
-```
-
-Run the script:
-
-```bash
-python DigiClock.py
-```
-
-No extra dependencies required — only Python 3.
-
-## Usage
-
-Launch the app with:
-
-```bash
-python DigiClock.py
-```
-
-Click the 12hr / 24hr button to switch formats.
-
 ## Project Structure
 
 ```
