@@ -54,6 +54,4 @@ Program ended successfully!
 - February displays "28 or 29 days" to account for leap years
 - The program handles invalid inputs by displaying an error message and prompting again
 
-## License
-
-This project is open source and available under the MIT License.
+##
